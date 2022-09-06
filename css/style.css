@@ -1,0 +1,42 @@
+h2 {
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  list-style: square;
+}
+
+button {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  padding: 5px;
+  width: 100%;
+}
+body {
+  border: 10px solid black;
+}
+h3 {
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  will-change: auto;
+  cursor: pointer;
+}
+.el {
+  position: absolute;
+  text-align: center;
+  color: white;
+  height: 25px;
+  width: 30px;
+  top: -15px;
+  left: 0;
+  background-color: red;
+}
